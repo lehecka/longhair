@@ -45,7 +45,7 @@ extern "C" {
  * Returns 0 if the API level does not match.
  */
 extern int _cauchy_256_init(int expected_version);
-#define cauchy_256_init() _cauchy_256_init(CAUCHY_256_VERSION)
+extern void cauchy_256_init() { _cauchy_256_init(CAUCHY_256_VERSION); }
 
 
 // Descriptor for received data block
