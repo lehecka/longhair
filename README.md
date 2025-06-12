@@ -78,7 +78,7 @@ To recover the original data, use the `cauchy_256_decode` function:
 
 ~~~
 	// Use the same settings as the encoder
-	int k = 33;
+	int k = 32;
 	int m = 12;
 	int bytes = 1000;
 
@@ -110,7 +110,7 @@ is more applicable:
 
 ~~~
 	// Use the same settings as the encoder
-	int k = 33;
+	int k = 32;
 	int m = 12;
 	int bytes = 1000;
 
